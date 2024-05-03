@@ -1,0 +1,29 @@
+header h1{
+    color: beige;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:red ;
+    padding: 20px;
+    border-radius: 10px;
+}
+#products{
+background-color: aliceblue;
+padding: 20px;
+border-radius: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+.product{
+    margin: 20px;
+}
+.product img {
+    height: 120px;
+    width: 150px;
+    border: 2px solid beige;
+    border-radius: 10px;
+    margin: auto;
+    
+}
