@@ -49,3 +49,6 @@ $("#temp_max").append(temperatureMaxCelsius.toFixed(2) + "°C");
 $("#windSpeed").append(content_wind);  
 });
 });
+function openCalendar() {
+    window.open("https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FParis&bgcolor=%23ffffff&src=dGdzLm5hdGFsaXlAZ21haWwuY29t&src=MjRmMDk5NjUxNmU5MzNjYmQ1ZGY3NmQxMzBhNDhmZmJiNjVmZTM1MWI1ZDg4YzI5NmNiZDljOWE4YTg4YTQyNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=YW50aG9ueS5tdDAwMUBnbWFpbC5jb20&color=%23039BE5&color=%23B39DDB&color=%2333B679&color=%23795548", "_blank");
+};
